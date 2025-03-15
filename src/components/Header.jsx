@@ -42,7 +42,7 @@ export default function Header() {
 
           {/* MENU */}
           <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul className="navbar-nav gap-3">
+            <ul className="navbar-nav gap-2 ">
               <li className="nav-item">
                 <Link className="nav-link text-black" to="/">Home Page</Link>
               </li>

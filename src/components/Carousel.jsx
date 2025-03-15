@@ -6,8 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 export default function Carousel({ title }) {
   const images = [
     { url: "/images/jumbotron.jpg" },
-    { url: "/images/logo.png" },
-    { url: "/images/jumbotron.jpg" },
+    { url: "/images/jumbotron2.jpg" },
+    { url: "/images/jumbotron3.jpg" },
   ];
 
   const settings = {
