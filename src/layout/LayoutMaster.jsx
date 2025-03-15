@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 export default function LayoutMaster({ children }) {
   return (
-    <div>
+    <>
       {/* Header (Navbar) */}
       <Header />
 
@@ -15,6 +15,6 @@ export default function LayoutMaster({ children }) {
 
       {/* Footer */}
       <Footer />
-    </div>
+    </>
   );
 };
