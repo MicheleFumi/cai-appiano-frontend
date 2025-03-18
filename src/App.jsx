@@ -10,6 +10,7 @@ import Documenti from './pages/Documenti';
 import Layout from './layout/LayoutMaster'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '@popperjs/core';
+
 export default function App() {
    
   return (
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/collaboratori" element={<Collaboratori />} />
           <Route path="/direttivo" element={<Direttivo />} />
           <Route path="/documenti" element={<Documenti />} />
+       
         </Routes>
       </Layout>
     </Router>
