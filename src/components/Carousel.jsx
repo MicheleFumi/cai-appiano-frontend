@@ -22,10 +22,11 @@ export default function Carousel({ title }) {
   };
 
   return (
-    <section className="position-relative" style={{ height: "50vh" }}> {/* Altezza adattiva */}
+    <section className="position-relative" style={{ height: "50vh" }}>
+      {" "}
+      {/* Altezza adattiva */}
       <Slider {...settings}>
         {images.map((image, index) => (
-
           <div key={index} style={{ position: "relative", height: "100%" }}>
             <img
               src={image.url}
@@ -38,12 +39,9 @@ export default function Carousel({ title }) {
             />
           </div>
         ))}
-        
-    
       </Slider>
-     
       <div
-        className="position-absolute top-50 start-50 translate-middle text-black text-center w-100"
+        className="position-absolute top-50 start-50 translate-middle text-white text-center w-100"
         style={{ zIndex: 10 }}
       >
         <h2>{title}</h2>
