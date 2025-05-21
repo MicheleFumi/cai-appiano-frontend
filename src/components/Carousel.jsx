@@ -18,12 +18,11 @@ export default function Carousel({ title }) {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    fade: true, // Attiva l'effetto dissolvenza
+    fade: true,
   };
 
   return (
     <section className="position-relative" style={{ height: "50vh" }}>
-      {" "}
       {/* Altezza adattiva */}
       <Slider {...settings}>
         {images.map((image, index) => (
